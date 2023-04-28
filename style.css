@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family= Sigmar & display =swap');
+@import url('https://fonts.googleapis.com/css2?family= Sigmarfamília= Sarala:wght@700 & & display =swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Sarala:wght@700&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    text-decoration: none; 
+}
+
+body {
+    font-size: 100;
+    background: linear-gradient(68.15deg, #60025c 16.62%, #0e0845 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.cabeçalho_imagem {
+    height: 90px;
+    box-shadow: 8px 10px 22px black;
+    border-radius: 20px;
+}
+
+.cabeçalho_menu {
+    display: flex;
+    gap: 50px;
+}
+
+.cabeçalho_menu {
+    font-family: 'Bruno Ace', cursive;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.principal {
+    margin-bottom: 48px;
+    border-top: 2px solid beige;
+}
+
+.principal_conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.principal_informaçoesbot {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 400px;
+    font-size:20px
+}
+
+.principal_titulo {
+    font-family: 'Bruno Ace SC', cursive;
+    color: aliceblue;
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.principal_subtitulo {
+    font-family: 'Bruno Ace', cursive;
+    color: #ccbdbf;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.principal_botao {
+    background-color: aliceblue;
+    font-size: 18px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 8px 10px 22px black;
+    border-radius: 20px;
+}
+.principal_botao:hover {
+    background-color: rgb(92, 93, 85) ;
+}
+
+.principal_secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding-top: 30px;
+    margin-top: 40px;
+    font-family: 'Bruno Ace', cursive;
+    font-size: 25px;
+    color: #ccbdbf;
+}
+.principal_secundaria_categoria {
+    color: aliceblue;
+
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 2px solid beige;
+}
+
+.rodape_imagem {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 8px 10px 22px black;
+    border-radius: 20px;
+}
